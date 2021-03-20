@@ -11,7 +11,6 @@ Prerequisites
 * The [boto3 SDK](https://aws.amazon.com/sdk-for-python/).
 * Ensure that the IAM Role attached to the Lambda function has policies for S3 and DynamoDB access. AmazonS3FullAccess and AmazonDynamoDBFullAccess will certainly work.
 * Ensure that the Lambda function is triggered by uploads to your S3 bucket.
-* If using CloudWatch, your Lambda function also needs the usual CloudWatch Logs policy.
 
 ### To set up boto3 for development (Amazon Linux and similar):
 ```
