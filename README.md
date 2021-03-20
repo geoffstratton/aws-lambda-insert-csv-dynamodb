@@ -8,7 +8,7 @@ AWS Lambda script for inserting CSV data into DynamoDB on S3 upload. Uses Python
 
 Prerequisites
 ---------------
-* The (boto3 SDK)[https://aws.amazon.com/sdk-for-python/].
+* The [boto3 SDK](https://aws.amazon.com/sdk-for-python/).
 * Ensure that the IAM Role attached to the Lambda function has policies for S3 and DynamoDB access. AmazonS3FullAccess and AmazonDynamoDBFullAccess will certainly work.
 * Ensure that the Lambda function is triggered by uploads to your S3 bucket.
 * If using CloudWatch, your Lambda function also needs the usual CloudWatch Logs policy.
